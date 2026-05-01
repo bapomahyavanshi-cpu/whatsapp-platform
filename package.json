@@ -1,0 +1,20 @@
+{
+  "name": "wa-bulk-platform",
+  "version": "1.0.0",
+  "description": "WhatsApp Bulk Messaging & Automation Platform",
+  "main": "index.js",
+
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.5",
+    "qrcode": "^1.5.3"
+  },
+  "keywords": ["whatsapp", "automation", "messaging"],
+  "license": "MIT"
+}
